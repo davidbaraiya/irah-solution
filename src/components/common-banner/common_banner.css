@@ -1,0 +1,32 @@
+.common-banner {
+  position: relative;
+  width: 100%;
+  min-height: 90vh;
+  background: #031d2ed2 url('../../assets/images/common-banner.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff !important;
+}
+
+.common-banner img {
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+}
+
+.common-banner p {
+  font-family: var(--second-font) !important;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
+}
+
+
+@media (max-width: 767px) {
+  .common-banner {
+    min-height: 100%;
+  }
+
+  .common-banner p {
+    font-size: 16px !important;
+  }
+}
